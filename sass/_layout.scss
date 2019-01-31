@@ -345,27 +345,22 @@ button {
 .portfolio {
 	padding: 68px 0;
 	background: $grey-backgrounds;
-	.portfolio-content {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		a {
-			color: $active-color;
-			text-transform: uppercase;
-			padding: 30px 0;
-			display: block;
-			&:hover {
-				color: $primary-color;
-				transition: 0.3s;
-			}
-			i {
-				padding-left: 5px;
-				font-size: 21px;
-			}
+	a {
+		color: $active-color;
+		text-transform: uppercase;
+		padding: 30px 0;
+		display: block;
+		&:hover {
+			color: $primary-color;
+			transition: 0.3s;
 		}
-		img {
-			width: 100%;
+		i {
+			padding-left: 5px;
+			font-size: 21px;
 		}
+	}
+	img {
+		width: 100%;
 	}
 }
 
@@ -380,6 +375,23 @@ footer {
 }
 
 /* mobile */
+@media(max-width: 1200px) {
+	.top {
+		img {
+			position: relative;
+			bottom: 0;
+			height: auto;
+			box-sizing: border-box;
+		}
+	}
+	.offer {
+		.offer-box {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
+
 @media(max-width: 768px) {
 	.main {
 		height: 100vh;
@@ -424,31 +436,9 @@ footer {
 			flex-direction: column;
 		}
 	}
-	.portfolio {
-		.portfolio-content {
-			flex-direction: column;
-		}
-	}
 	footer {
 		.footer-content {
 			justify-content: center;
-		}
-	}
-}
-
-@media(max-width: 1200px) {
-	.top {
-		img {
-			position: relative;
-			bottom: 0;
-			height: auto;
-			box-sizing: border-box;
-		}
-	}
-	.offer {
-		.offer-box {
-			flex-direction: column;
-			align-items: center;
 		}
 	}
 }

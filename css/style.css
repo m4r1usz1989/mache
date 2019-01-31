@@ -321,15 +321,13 @@ button:hover { background: #e87498; transition: 0.3s; cursor: pointer; }
 /* portfolio */
 .portfolio { padding: 68px 0; background: #F2F2F2; }
 
-.portfolio .portfolio-content { display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-align: center; align-items: center; }
+.portfolio a { color: #ed145b; text-transform: uppercase; padding: 30px 0; display: block; }
 
-.portfolio .portfolio-content a { color: #ed145b; text-transform: uppercase; padding: 30px 0; display: block; }
+.portfolio a:hover { color: #5a5a5a; transition: 0.3s; }
 
-.portfolio .portfolio-content a:hover { color: #5a5a5a; transition: 0.3s; }
+.portfolio a i { padding-left: 5px; font-size: 21px; }
 
-.portfolio .portfolio-content a i { padding-left: 5px; font-size: 21px; }
-
-.portfolio .portfolio-content img { width: 100%; }
+.portfolio img { width: 100%; }
 
 /* footer */
 footer { background: #262626; }
@@ -337,6 +335,9 @@ footer { background: #262626; }
 footer .footer-content { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; color: #fff; }
 
 /* mobile */
+@media (max-width: 1200px) { .top img { position: relative; bottom: 0; height: auto; box-sizing: border-box; }
+  .offer .offer-box { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; } }
+
 @media (max-width: 768px) { .main { height: 100vh; }
   .main header .topbar { -ms-flex-direction: column; flex-direction: column; }
   .main header .topbar .nav { width: 100%; margin: 20px; }
@@ -345,11 +346,7 @@ footer .footer-content { display: -ms-flexbox; display: flex; -ms-flex-pack: jus
   .services .offset-0 { margin: 0; }
   .reviews .main-reviews p::after { top: 160%; }
   .cto .cto-content { -ms-flex-direction: column; flex-direction: column; }
-  .portfolio .portfolio-content { -ms-flex-direction: column; flex-direction: column; }
   footer .footer-content { -ms-flex-pack: center; justify-content: center; } }
-
-@media (max-width: 1200px) { .top img { position: relative; bottom: 0; height: auto; box-sizing: border-box; }
-  .offer .offer-box { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; } }
 
 #checkbox1, .toggle { display: none; }
 
