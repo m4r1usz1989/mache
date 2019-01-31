@@ -321,7 +321,7 @@ button:hover { background: #e87498; transition: 0.3s; cursor: pointer; }
 /* portfolio */
 .portfolio { padding: 68px 0; background: #F2F2F2; }
 
-.portfolio row-portfolio { -ms-flex-align: center; align-items: center; }
+.portfolio .row-portfolio { -ms-flex-align: center; align-items: center; }
 
 .portfolio a { color: #ed145b; text-transform: uppercase; padding: 30px 0; display: block; }
 
