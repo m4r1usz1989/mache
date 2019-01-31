@@ -250,9 +250,11 @@ button:hover { background: #e87498; transition: 0.3s; cursor: pointer; }
 .top img { position: absolute; bottom: -15%; max-width: 60%; height: auto; box-sizing: border-box; }
 
 /* services */
-.services { padding: 100px 0 0 0; text-align: center; }
+.services { padding: 100px 0 0 0; }
 
 .services h3::after { transform: translate(-50%, -50%); left: 50%; width: 16%; }
+
+.services .services-box { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
 
 .services .services-box .box { width: 150px; height: 150px; border: 1px #5a5a5a solid; border-radius: 50%; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
