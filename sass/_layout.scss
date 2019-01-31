@@ -345,6 +345,9 @@ button {
 .portfolio {
 	padding: 68px 0;
 	background: $grey-backgrounds;
+	row-portfolio {
+		align-items: center;
+	}
 	a {
 		color: $active-color;
 		text-transform: uppercase;
