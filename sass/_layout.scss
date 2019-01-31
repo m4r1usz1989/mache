@@ -347,6 +347,7 @@ button {
 	background: $grey-backgrounds;
 	.row-portfolio {
 		align-items: center;
+		justify-content: space-evenly;
 	}
 	a {
 		color: $active-color;
