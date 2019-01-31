@@ -327,6 +327,8 @@ button:hover { background: #e87498; transition: 0.3s; cursor: pointer; }
 
 .portfolio a i { padding-left: 5px; font-size: 21px; }
 
+.portfolio h3 { margin: 0; }
+
 .portfolio img { width: 100%; }
 
 /* footer */
