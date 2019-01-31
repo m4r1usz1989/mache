@@ -83,9 +83,9 @@ button {
 				ul {
 					padding: 0;
 					margin: 0;
+					display: flex;
 					li {
 						list-style: none;
-						float: left;
 						a {
 							font-weight: bold;
 							font-size: 16px;
@@ -454,43 +454,6 @@ footer {
 #checkbox1,
 .toggle {
   display: none;
-}
-
-#css-script-menu {
-	position: fixed;
-	height: 90px;
-	width: 100%;
-	top: 0;
-	left: 0;
-	border-top: 5px solid #16a1e7;
-	background: #fff;
-	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-	z-index: 999999;
-	padding: 10px 0;
-	box-sizing:content-box;
-}
-
-.css-script-center {
-	width: 960px;
-	margin: 0 auto;
-	ul {
-		width: 212px;
-		float:left;
-		line-height:45px;
-		margin:0;
-		padding:0;
-		list-style:none;
-	}
-}
-
-.css-script-ads {
-	width: 728px;
-	height:90px;
-	float:right;
-}
-.css-script-clear {
-	clear:both;
-	height:0;
 }
 
 @media screen and (max-width: 768px) {

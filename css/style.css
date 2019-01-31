@@ -220,9 +220,9 @@ button:hover { background: #e87498; transition: 0.3s; cursor: pointer; }
 
 .main header .topbar { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: justify; justify-content: space-between; }
 
-.main header .topbar .mainmenu ul { padding: 0; margin: 0; }
+.main header .topbar .mainmenu ul { padding: 0; margin: 0; display: -ms-flexbox; display: flex; }
 
-.main header .topbar .mainmenu ul li { list-style: none; float: left; }
+.main header .topbar .mainmenu ul li { list-style: none; }
 
 .main header .topbar .mainmenu ul li a { font-weight: bold; font-size: 16px; color: #fff; padding: 0 9px; }
 
@@ -350,16 +350,6 @@ footer .footer-content { display: -ms-flexbox; display: flex; -ms-flex-pack: jus
   .offer .offer-box { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; } }
 
 #checkbox1, .toggle { display: none; }
-
-#css-script-menu { position: fixed; height: 90px; width: 100%; top: 0; left: 0; border-top: 5px solid #16a1e7; background: #fff; box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16); z-index: 999999; padding: 10px 0; box-sizing: content-box; }
-
-.css-script-center { width: 960px; margin: 0 auto; }
-
-.css-script-center ul { width: 212px; float: left; line-height: 45px; margin: 0; padding: 0; list-style: none; }
-
-.css-script-ads { width: 728px; height: 90px; float: right; }
-
-.css-script-clear { clear: both; height: 0; }
 
 @media screen and (max-width: 768px) { .toggle { clear: both; display: block; text-align: center; padding: 10px 0; cursor: pointer; width: 200px; color: #fff; background: #ed145b; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; transition: all .1s linear; margin-top: 20px; }
   #checkbox1:checked + label .demo li { opacity: 1; visibility: visible; transition: all .7s linear; }
