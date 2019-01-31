@@ -2,10 +2,10 @@
 <html lang="pl">
 	<head>
 		<meta charset="UTF-8">
-		<title>Projekt dla ambitnych</title>
+		<title>Mache template</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">	
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<!-- main -->
@@ -13,20 +13,26 @@
 			<header>
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
-							<div class="logo">
-								<a href="#"><img src="images/logo.png" alt="logo" /></a>
+						<div class="col-xl-12">
+							<div class="topbar">
+								<div class="logo">
+									<a href="#"><img src="images/logo.png" alt="logo" /></a>
+								</div>
+								<nav class="mainmenu">
+									<input type="checkbox" id="checkbox1" />
+									<label for="checkbox1">
+										<ul class="menu demo">
+											<li><a href="#">Home</a></li>
+											<li><a href="#">Pages</a></li>
+											<li><a href="#">Feature</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+										<span class="toggle">☰</span>
+									</label>
+								</nav>
 							</div>
-							<nav class="mainmenu">
-								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Pages</a></li>
-									<li><a href="#">Feature</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</nav>
 							<div class="intro">
 								<h1><span class="first-word">Mache</span> free psd template</h1>
 								<p class="intro-desc">Elegant and clean PSD template, which you can download and use for free!
@@ -38,18 +44,18 @@
 				</div>
 			</header>
 		</section>
-		<!-- main -->
+		<!-- ./main -->
 
 		<!-- top -->
 		<section class="top">
 			<div class="container">
 				<div class="row">
-					<div class="col-5">
+					<div class="col-xl-5">
 						<h3>Powerfull PSD template available for free!</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in </p>
 						<a href="#">See the video <i class="far fa-play-circle"></i></a>
 					</div>
-					<div class="col-7">
+					<div class="col-xl-7">
 						<img src="images/MacBook-Pro.png" alt="macbook" />
 					</div>
 				</div>
@@ -61,60 +67,62 @@
 		<section class="services">
 			<div class="container">
 				<div class="row">
-					<div class="col-8 col-offset-2">
+					<div class="col-xl-12">
 						<h3>Our services</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 					</div>
 				</div>
 			</div>
 			<div class="container icon">
-				<div class="services-box services-a">
-					<div class="box">
-						<img src="images/fully-editable.png" alt="fully editable" />
-					</div>
-					<h4>Fully editable</h4>
-				</div>
-				<div class="services-box services-b">
-					<div class="box">
-						<img src="images/free-download.png" alt="free download" />
-					</div>
-					<h4>Free download</h4>
-				</div>
-				<div class="services-box services-c">
-					<div class="box">
-						<img src="images/modern-design.png" alt="modern design" />
-					</div>
-					<h4>Modern design</h4>
-				</div>
-				<div class="services-box services-d">
-					<div class="box">
-						<img src="images/responsive.png" alt="responsive design" />
-					</div>
-					<h4>100% Responsive</h4>
+				<div class="row row-icon">
+						<div class="services-box services-a">
+							<div class="box">
+								<img src="images/fully-editable.png" alt="fully editable" />
+							</div>
+							<h4>Fully editable</h4>
+						</div>
+						<div class="services-box services-b">
+							<div class="box">
+								<img src="images/free-download.png" alt="free download" />
+							</div>
+							<h4>Free download</h4>
+						</div>
+						<div class="services-box services-c">
+							<div class="box">
+								<img src="images/modern-design.png" alt="modern design" />
+							</div>
+							<h4>Modern design</h4>
+						</div>
+						<div class="services-box services-d">
+							<div class="box">
+								<img src="images/responsive.png" alt="responsive design" />
+							</div>
+							<h4>100% Responsive</h4>
+						</div>
 				</div>
 			</div>
 		</section>
 		<!-- ./services -->
-
+		
+		<!-- reviews -->
 		<section class="reviews">
 			<div class="container">
 				<div class="row">
-					<div class="col-8 col-offset-2">
+					<div class="col-xl-8">
 						<div class="main-reviews">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor 
-	incididunt ut labore tet dolore magna aliqua.  Ut enim ad minim veniam, 
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- ./reviews -->
 
 		<!-- price -->
 		<section class="price">
 			<div class="container">
 				<div class="row">
-					<div class="col-8 col-offset-2">
+					<div class="col-xl-8">
 						<h3>Check Our Prices</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 					</div>
@@ -123,29 +131,60 @@
 			<div class="price-table">
 				<div class="container">
 					<div class="row">
-						<div class="col-3">
-							<div class="price-content">
-								<div class="currency">
-									<p>$<span class="big-price">19</span></p>
-								</div>
-								<div class="month">
-									<p>per month</p>
-								</div>
+						<div class="col-xl-3">
+							<div class="box-top">
+								<h4>$<span>19</span></h4>
+								<p>per month</p>
+								<button>standard</button>
 							</div>
-							<div class="name">
-								<p>Standard</p>
-							</div>
-							<div class="project">
-								<p>5 Project</p>
-							</div>
-							<div class="storage">
+							<div class="box-bottom">
+								<p>5 Projects</p>
 								<p>200 MB Storage</p>
-							</div>
-							<div class="Notification">
 								<p>Notification settings</p>
-							</div>
-							<div class="password">
 								<p>Password protection</p>
+								<button>Buy Now</button>
+							</div>
+						</div>
+						<div class="col-xl-3">
+							<div class="box-top recommended">
+								<h4>$<span>39</span></h4>
+								<p>per month</p>
+								<button>business</button>
+							</div>
+							<div class="box-bottom">
+								<p>15 Projects</p>
+								<p>1 GB Storage</p>
+								<p>Notification settings</p>
+								<p>Password protection</p>
+								<button>Buy Now</button>
+							</div>
+						</div>
+						<div class="col-xl-3">
+							<div class="box-top">
+								<h4>$<span>59</span></h4>
+								<p>per month</p>
+								<button>premium</button>
+							</div>
+							<div class="box-bottom">
+								<p>30 Projects</p>
+								<p>2 GB Storage</p>
+								<p>Notification settings</p>
+								<p>Password protection</p>
+								<button>Buy Now</button>
+							</div>
+						</div>
+						<div class="col-xl-3">
+							<div class="box-top">
+								<h4>$<span>99</span></h4>
+								<p>per month</p>
+								<button>unlimited</button>
+							</div>
+							<div class="box-bottom">
+								<p>Unlimited Projects</p>
+								<p>Unlimited Storage</p>
+								<p>Notification settings</p>
+								<p>Password protection</p>
+								<button>Buy Now</button>
 							</div>
 						</div>
 					</div>
@@ -153,5 +192,116 @@
 			</div>
 		</section>
 		<!-- ./price -->
+
+		<!-- offer -->
+		<section class="offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon1.png" alt="icon1">
+						</div>
+						<div class="col-xl-9">
+							<h4>Hight Resolution</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon2.png" alt="icon2">
+						</div>
+						<div class="col-xl-9">
+							<h4>Photography</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon3.png" alt="icon3">
+						</div>
+						<div class="col-xl-9">
+							<h4>Easy to customize</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon4.png" alt="icon4">
+						</div>
+						<div class="col-xl-9">
+							<h4>24/7 Support</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon5.png" alt="icon5">
+						</div>
+						<div class="col-xl-9">
+							<h4>Powerfull theme</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-12 offer-box">
+						<div class="col-xl-3">
+							<img src="images/icon6.png" alt="icon6">
+						</div>
+						<div class="col-xl-9">
+							<h4>SEO Optimization</h4>
+							<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./offer -->
+
+		<!-- call to action -->
+		<section class="cto">
+			<div class="container">
+				<div class="row">
+					<div class="cto-content">
+						<h2>Became a part of <span>mache</span> community today</h2>
+						<button>Join us</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./call to action -->
+
+		<!-- portfolio -->
+		<section class="portfolio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="portfolio-content">
+						<div class="col-xl-6 col-md-12">
+							<img src="images/portfolio.jpg" alt="portfolio" />
+						</div>
+						<div class="col-xl-4 col-md-12">
+							<h3>Please share some love by appreciate it and download!</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
+							<button>Download Now!</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./portfolio -->
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="row footer-content">
+					<div class="col-6">
+						<p>&copy; 2018 Copyright mache template</p>
+					</div>
+					<div class="col-6">
+						<p>Designed by <img src="images/author.png" alt="autor logo"></p>
+					</div>
+				</div>
+			</div>	
+		</footer>	
 	</body>
 </html>

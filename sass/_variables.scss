@@ -1,0 +1,23 @@
+/* Fonts */
+$primary-font: 'Lato', Helvetica, Arial, sans-serif;
+$secondary-font: 'droid_serifbold', serif;
+
+/* Backgrounds */
+$grey-backgrounds: #F2F2F2;
+
+/* colors */
+$primary-color: #5a5a5a;
+$active-color: #ed145b;
+
+
+@font-face {
+    font-family: 'droid_serifbold';
+    src: url('../fonts/DroidSerif-Bold-webfont.eot');
+    src: url('../fonts/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Bold-webfont.svg#droid_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
