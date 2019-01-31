@@ -155,6 +155,7 @@ button {
 	img {
 		position: absolute;
 		bottom: -15%;
+		right: 0;
 		max-width: 60%;
 		height: auto ;
 		box-sizing: border-box;
@@ -165,6 +166,7 @@ button {
 .services {
 	padding: 100px 0 0 0;
 	h3 {
+		text-align: center;
 		&::after {
 			transform: translate(-50%, -50%);
 			left: 50%;
