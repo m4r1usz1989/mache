@@ -342,7 +342,8 @@ footer .footer-content { display: -ms-flexbox; display: flex; -ms-flex-pack: jus
 
 /* mobile */
 @media (max-width: 1200px) { .top img { position: relative; bottom: 0; height: auto; box-sizing: border-box; }
-  .offer .offer-box { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; } }
+  .offer .offer-box { -ms-flex-align: center; align-items: center; padding: 40px 20px 0 0; }
+  .offer .offer-box .img-min { padding-right: 10px; } }
 
 @media (max-width: 768px) { .main { height: 100vh; }
   .main header .topbar { -ms-flex-direction: column; flex-direction: column; }
